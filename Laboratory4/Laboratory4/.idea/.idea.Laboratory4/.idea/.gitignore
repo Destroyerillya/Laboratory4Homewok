@@ -1,0 +1,13 @@
+﻿# Default ignored files
+/shelf/
+/workspace.xml
+# Rider ignored files
+/projectSettingsUpdater.xml
+/contentModel.xml
+/.idea.Laboratory4.iml
+/modules.xml
+# Datasource local storage ignored files
+/../../../../../../../../../../:\Users\igri-\Desktop\CSHARP\Laboratory4\Laboratory4\.idea\.idea.Laboratory4\.idea/dataSources/
+/dataSources.local.xml
+# Editor-based HTTP Client requests
+/httpRequests/

@@ -1,0 +1,13 @@
+﻿# Default ignored files
+/shelf/
+/workspace.xml
+# Rider ignored files
+/contentModel.xml
+/projectSettingsUpdater.xml
+/.idea.Homework4.iml
+/modules.xml
+# Datasource local storage ignored files
+/../../../../../../../../../../:\Users\igri-\Desktop\CSHARP\Homework4\Homework4\.idea\.idea.Homework4\.idea/dataSources/
+/dataSources.local.xml
+# Editor-based HTTP Client requests
+/httpRequests/

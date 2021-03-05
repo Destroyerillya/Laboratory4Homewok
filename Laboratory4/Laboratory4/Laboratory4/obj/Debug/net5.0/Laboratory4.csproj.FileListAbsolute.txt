@@ -1,0 +1,16 @@
+C:\Users\igri-\Desktop\CSHARP\Laboratory4\Laboratory4\Laboratory4\bin\Debug\net5.0\Laboratory4.exe
+C:\Users\igri-\Desktop\CSHARP\Laboratory4\Laboratory4\Laboratory4\bin\Debug\net5.0\Laboratory4.deps.json
+C:\Users\igri-\Desktop\CSHARP\Laboratory4\Laboratory4\Laboratory4\bin\Debug\net5.0\Laboratory4.runtimeconfig.json
+C:\Users\igri-\Desktop\CSHARP\Laboratory4\Laboratory4\Laboratory4\bin\Debug\net5.0\Laboratory4.runtimeconfig.dev.json
+C:\Users\igri-\Desktop\CSHARP\Laboratory4\Laboratory4\Laboratory4\bin\Debug\net5.0\Laboratory4.dll
+C:\Users\igri-\Desktop\CSHARP\Laboratory4\Laboratory4\Laboratory4\bin\Debug\net5.0\ref\Laboratory4.dll
+C:\Users\igri-\Desktop\CSHARP\Laboratory4\Laboratory4\Laboratory4\bin\Debug\net5.0\Laboratory4.pdb
+C:\Users\igri-\Desktop\CSHARP\Laboratory4\Laboratory4\Laboratory4\obj\Debug\net5.0\Laboratory4.csprojAssemblyReference.cache
+C:\Users\igri-\Desktop\CSHARP\Laboratory4\Laboratory4\Laboratory4\obj\Debug\net5.0\Laboratory4.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\igri-\Desktop\CSHARP\Laboratory4\Laboratory4\Laboratory4\obj\Debug\net5.0\Laboratory4.AssemblyInfoInputs.cache
+C:\Users\igri-\Desktop\CSHARP\Laboratory4\Laboratory4\Laboratory4\obj\Debug\net5.0\Laboratory4.AssemblyInfo.cs
+C:\Users\igri-\Desktop\CSHARP\Laboratory4\Laboratory4\Laboratory4\obj\Debug\net5.0\Laboratory4.csproj.CoreCompileInputs.cache
+C:\Users\igri-\Desktop\CSHARP\Laboratory4\Laboratory4\Laboratory4\obj\Debug\net5.0\Laboratory4.dll
+C:\Users\igri-\Desktop\CSHARP\Laboratory4\Laboratory4\Laboratory4\obj\Debug\net5.0\ref\Laboratory4.dll
+C:\Users\igri-\Desktop\CSHARP\Laboratory4\Laboratory4\Laboratory4\obj\Debug\net5.0\Laboratory4.pdb
+C:\Users\igri-\Desktop\CSHARP\Laboratory4\Laboratory4\Laboratory4\obj\Debug\net5.0\Laboratory4.genruntimeconfig.cache
