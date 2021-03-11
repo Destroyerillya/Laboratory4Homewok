@@ -7,32 +7,39 @@ namespace Laboratory4
     class Program
     {
         public static int a = 1;
-        static int Sum()
+        public static object lockoption = new Object();
+        static void Sum()
         { 
             while (true) 
             {
                 Thread.Sleep(2000);
-                a += 2;
+                lock (lockoption)
+                {
+                    a += 2;
+                }
             }
         }
-        static async Task<int> SumAsync()
+        static async Task SumAsync()
         {
-            return await Task.Run(() => Sum());
+            await Task.Run(() => Sum());
         }
         
-        static int Mul()
+        static void Mul()
         { 
             while (true) 
             {
                 Thread.Sleep(3000);
-                a *= 3;
+                lock (lockoption)
+                {
+                    a *= 3;
+                }
             }
         }
-        static async Task<int> MulAsync()
+        static async Task MulAsync()
         {
-            return await Task.Run(() => Mul());
+            await Task.Run(() => Mul());
         }
-        static int Menu()
+        static void Menu()
         {   Console.WriteLine("write command show or stop");
             while (true)
             {
@@ -52,18 +59,18 @@ namespace Laboratory4
                 }
             }
         }
-        static async Task<int> MenuAsync()
+        static async Task MenuAsync()
         {
-            return await Task.Run(() => Menu());
+            await Task.Run(() => Menu());
         }
         async static Task Main(string[] args)
         {
-            Task<int> Task1 = SumAsync();
-            Task<int> Task2 = MulAsync();
-            Task<int> Task3 = MenuAsync();
-            int result1 = await Task1;
-            int result2 = await Task2;
-            int result3 = await Task3;
+            Task Task1 = SumAsync();
+            Task Task2 = MulAsync();
+            Task Task3 = MenuAsync();
+            await Task1;
+            await Task2;
+            await Task3;
         }
     }
 }
