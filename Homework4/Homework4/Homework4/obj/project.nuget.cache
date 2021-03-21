@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "nhCqAe6rY+IavEkZWQC9k5uerqeSxa3aJ4e6mBo0e6wjl5RzU8dMdhuSU0di/16PmEVJaZhFWAocXFzNrnCIaw==",
+  "dgSpecHash": "qxRk3SyUih23U5TzwsQ9ccLpPhkAoKfFEKc2dWNgVbabEhOrUF1LkWROAPXFTbHMaXL7qQNSZ8fZLjqUhgQe4A==",
   "success": true,
-  "projectFilePath": "C:\\Users\\igri-\\Desktop\\CSHARP\\Homework4\\Homework4\\Homework4\\Homework4.csproj",
+  "projectFilePath": "C:\\Users\\igri-\\Desktop\\CSHARP\\Laboratory4Homewok\\Homework4\\Homework4\\Homework4\\Homework4.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\igri-\\.nuget\\packages\\entityframework\\6.4.4\\entityframework.6.4.4.nupkg.sha512",
     "C:\\Users\\igri-\\.nuget\\packages\\microsoft.csharp\\4.7.0\\microsoft.csharp.4.7.0.nupkg.sha512",

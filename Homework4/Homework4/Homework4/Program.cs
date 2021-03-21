@@ -23,24 +23,14 @@ namespace Homework4
             context.SaveChanges();
             Console.WriteLine("1 - First Select, 2 - Second Select");
             Console.WriteLine();
-            Task runqueuetask = RunQueueAsync();
-            Task runlistentask = RunListenAsync();
+            Task runqueuetask = DoWork();
+            Task runlistentask = ListenForInput();
             await runqueuetask;
             await runlistentask;
             context.Dispose();
         }
-        
-        static async Task RunQueueAsync()
-        {
-            await Task.Run(() => DoWork());
-        }
 
-        static async Task RunListenAsync()
-        {
-            await Task.Run(() => ListenForInput());
-        }
-
-        static void ListenForInput()
+        static async Task ListenForInput()
         {
             while (flager)
             {
@@ -63,11 +53,11 @@ namespace Homework4
             }
         }
 
-        static void DoWork()
+        static async Task DoWork()
         {
             while (flager)
             {
-                Thread.Sleep(5000);
+                await Task.Delay(5000);
                 int result;
                 if (!queue.TryDequeue(out result))
                 {
@@ -77,7 +67,7 @@ namespace Homework4
                 {
                     if (result == 1)
                     {
-                        Thread.Sleep(2000);
+                        await Task.Delay(3000);
                         Console.WriteLine(result);
                         IQueryable<PersonalMessages> users_messages = from usersMessage in context.UsersMessages
                             select usersMessage;
@@ -89,7 +79,7 @@ namespace Homework4
                     }
                     else
                     {
-                        Thread.Sleep(3000);
+                        await Task.Delay(3000);
                         Console.WriteLine(result);
                         IQueryable<Post> posts = from post in context.Posts
                             select post;

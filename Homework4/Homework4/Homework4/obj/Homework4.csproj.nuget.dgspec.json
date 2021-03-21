@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\igri-\\Desktop\\CSHARP\\Homework4\\Homework4\\Homework4\\Homework4.csproj": {}
+    "C:\\Users\\igri-\\Desktop\\CSHARP\\Laboratory4Homewok\\Homework4\\Homework4\\Homework4\\Homework4.csproj": {}
   },
   "projects": {
-    "C:\\Users\\igri-\\Desktop\\CSHARP\\Homework4\\Homework4\\Homework4\\Homework4.csproj": {
+    "C:\\Users\\igri-\\Desktop\\CSHARP\\Laboratory4Homewok\\Homework4\\Homework4\\Homework4\\Homework4.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\igri-\\Desktop\\CSHARP\\Homework4\\Homework4\\Homework4\\Homework4.csproj",
+        "projectUniqueName": "C:\\Users\\igri-\\Desktop\\CSHARP\\Laboratory4Homewok\\Homework4\\Homework4\\Homework4\\Homework4.csproj",
         "projectName": "Homework4",
-        "projectPath": "C:\\Users\\igri-\\Desktop\\CSHARP\\Homework4\\Homework4\\Homework4\\Homework4.csproj",
+        "projectPath": "C:\\Users\\igri-\\Desktop\\CSHARP\\Laboratory4Homewok\\Homework4\\Homework4\\Homework4\\Homework4.csproj",
         "packagesPath": "C:\\Users\\igri-\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\igri-\\Desktop\\CSHARP\\Homework4\\Homework4\\Homework4\\obj\\",
+        "outputPath": "C:\\Users\\igri-\\Desktop\\CSHARP\\Laboratory4Homewok\\Homework4\\Homework4\\Homework4\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\igri-\\AppData\\Roaming\\NuGet\\NuGet.Config",
